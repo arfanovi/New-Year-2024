@@ -1,0 +1,120 @@
+
+body{
+    margin: 0;
+    padding: 20px;
+}
+
+
+
+
+.banner{
+
+    background-image: url('./images/Banner\ Image.png');
+   background-size: cover;
+   height: 700px;
+}
+
+
+
+#banner{
+  position: relative;
+    height: 470px;
+    align-items: center;
+  
+    background-position: center;
+}
+
+.holiday img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.holiday-text{
+    text-align:  center;
+}
+
+
+
+
+
+
+
+
+
+.welcomne-party{
+   background-image: url('./images/Vectorrr.png');
+   background-size: cover;
+}
+
+.welcome{
+    display: flex;
+   
+}
+
+.hotel{
+    text-align: center;
+    background-color: #ebf1eb;
+}
+
+
+
+
+
+.feature{
+    display: flex;
+}
+
+
+
+.feature-img{
+    display: flex;
+}
+
+
+
+
+.product{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px; 
+    
+}
+
+.subscribe{
+    text-align: center;
+}
+
+.subscribe-newsleter{
+    background-color: #efd2d2;
+}
+
+.input-field{
+    height: 20px;
+}
+
+
+
+
+.footer{
+    background-color: #070211;
+    color: white;
+    
+}
+
+.footer-main{
+    padding: 100px;
+}
+
+.footer-contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-social-media{
+    justify-content: center;
+}
